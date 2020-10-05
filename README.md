@@ -17,7 +17,10 @@
 
 ## Instalação
 
-Na raíz da sua instalação Magento2 acessar o diretório: ````app/code/````
+Na raíz da sua instalação Magento2 acesse o diretório:
+````
+cd app/code/
+````
 
 No diretório citado acima, execute o seguinte comando:
 ````
