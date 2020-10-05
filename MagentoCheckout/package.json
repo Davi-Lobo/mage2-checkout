@@ -1,0 +1,20 @@
+{
+  "name": "DaviLoboMagentoCheckout",
+  "version": "1.0.0",
+  "description": "A Magento 2 module to rewrite/override the original checkout",
+  "main": "gulpfile.js",
+  "author": "Davi Lobo <davi.lobo.gs@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "sass"
+  ],
+  "devDependencies": {
+    "gulp-sass": "^3.1.10",
+    "gulp-rename": "^1.4.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglifycss": "^1.1.0"
+  }
+}

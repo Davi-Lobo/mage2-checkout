@@ -1,0 +1,12 @@
+# Node things
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Yarn Things
+yarn.lock
+yarn-debug.log
+yarn-error.log
+
+#MacOS Thing
+.DS_store

@@ -1,0 +1,65 @@
+#shipping-new-address-form {
+    display: flex;
+    flex-direction: column;
+
+    .field {
+        &._required {
+            margin: 0 0 20px;
+
+            label {
+                clip: unset !important;
+                display: inline-block;
+                height: auto !important;
+                margin: 0 0 8px;
+                position: static !important;
+                width: auto !important;
+
+                &::after {
+                    content: '*';
+                    color: #e02b27;
+                    font-size: 1.2rem;
+                    margin: 0 0 0 5px;
+                }
+            }
+        }
+
+        &[name="shippingAddress.firstname"] {
+            order: 0;
+        }
+
+        &[name="shippingAddress.lastname"] {
+            order: 1;
+        }
+
+        &[name="shippingAddress.postcode"] {
+            order: 2;
+        }
+
+        &.street {
+            order: 3;
+
+            .control {
+                display: flex;
+                flex-direction: column;
+
+                .field {
+                    &[name="shippingAddress.street.taxvat"] {
+                        order: -1;
+                    }
+                }
+            }
+        }
+
+        &[name="shippingAddress.city"] {
+            order: 4;
+        }
+
+        &[name="shippingAddress.region_id"] {
+            order: 5;
+        }
+
+        &[name="shippingAddress.country_id"] {
+            order: 6;
+        }
+    }
+}
