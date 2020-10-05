@@ -22,6 +22,11 @@ Na raíz da sua instalação Magento2 acesse o diretório:
 cd app/code/
 ````
 
+Caso o diretório não exista, ainda na raíz execute:
+````
+mkdir app/code
+````
+
 No diretório citado acima, execute o seguinte comando:
 ````
 git clone https://github.com/Davi-Lobo/mage2-checkout.git DaviLobo
